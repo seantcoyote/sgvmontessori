@@ -7,6 +7,7 @@ angular.module('sgvmApp')
       return [
         {
         'title': 'Parents',
+        'link': 'pto',
         'subnav': [
           {
           'title': 'PTO',
@@ -44,27 +45,29 @@ angular.module('sgvmApp')
         },
         {
         'title': 'Classrooms',
+        'link': 'michelle',
         'subnav': [
           {
-          'title': 'Michelle (K-1)',
+          'title': 'Michelle Benjamin (K-1)',
           'link': 'michelle'
           },
           {
-          'title': 'Nathan (1-2)',
+          'title': 'Nathan Murray (1-2)',
           'link': 'nathan'
           },
           {
-          'title': 'Pauline (3-4)',
+          'title': 'Pauline Hope (3-4)',
           'link': 'pauline'
           },
           {
-          'title': 'Alex (4-5)',
+          'title': 'Alex Cusick (4-5)',
           'link': 'alex'
           },
           ]
         },
         {
         'title': 'About',
+        'link': 'about-us',
         'subnav': [
             {
             'title': 'About Us',

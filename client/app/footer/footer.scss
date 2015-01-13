@@ -1,5 +1,51 @@
 .sgvm-footer {
-    padding: 50px 0;
-    color: white;
+    padding: 10px 0;
+    font-family: 'Myriad Pro', myriad, helvetica, sans-serif;
     background-color: $dark-purple;
 }
+.navbar-nav.sgvm-footer-nav ul {
+  padding-left: 0;
+}
+.navbar-nav.sgvm-footer-nav a {
+  color: $footer-links;
+  font: 0.85em 'Myriad Pro', myriad, helvetica, sans-serif;
+  letter-spacing: 0.1em;
+}
+.footer-subnav-item {
+  margin: 0;
+  list-style-type: none;
+}
+.navbar-nav.sgvm-footer-nav li.footer-top-nav-item > a {
+  text-transform: uppercase;
+  padding: 20px 0 10px;
+}
+.navbar-nav.sgvm-footer-nav li.footer-top-nav-item > a:hover,
+.navbar-nav.sgvm-footer-nav li.footer-top-nav-item > a:focus {
+  background-color: transparent;
+}
+.navbar-nav.sgvm-footer-nav li a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: none;
+}
+.sgvm-copyright {
+  margin: 20px 0;
+  font-size: 0.8em;
+  color: $footer-blue;
+}
+
+@media (max-width: $screen-sm-max) {
+  .navbar-nav.sgvm-footer-nav {
+    padding: 20px;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .navbar-nav.sgvm-footer-nav {
+    width: 100%;
+  }
+  .footer-top-nav-item {
+    width: 25%;
+  }
+}
+
