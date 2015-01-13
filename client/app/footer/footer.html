@@ -1,0 +1,32 @@
+<footer class="container-fluid sgvm-footer" ng-controller="FooterCtrl">
+  <div class="row">
+    <div class="col-sm-12">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+
+                <ul class="nav navbar-nav navbar-right sgvm-footer-nav">
+                  <li ng-repeat="item in menu" ng-class="{active: isActive(item.link)}">
+
+                    <span ng-if="!item.subnav">
+                      <a ui-sref="{{item.link}}">{{item.title}}</a>
+                    </span>
+
+                    <span ng-if="item.subnav" class="dropdown">
+                      <a ng-if="item.subnav" href="#" class="dropdown-toggle" role="button" aria-expanded="false">{{item.title}} <span class="caret"></span></a>
+                      <ul ng-if="item.subnav" class="dropdown-menu" role="menu">
+                        <li ng-repeat="subitem in item.subnav"><a ui-sref="{{subitem.link}}">{{subitem.title}}</a></li>
+                      </ul>
+                    </span>
+
+                  </li>
+                </ul>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>

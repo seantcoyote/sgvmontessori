@@ -1,0 +1,91 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+$fa-font-path: "/bower_components/font-awesome/fonts";
+
+@import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+@import 'font-awesome/scss/font-awesome';
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/**
+ * App-wide Styles
+ */
+
+$nav-blue: #000033;
+$purple: #5e4c7d;
+$dark-purple: #2d223f;
+$beige: #f3f0df;
+$teal: #2db1c2;
+$h1-color: #333;
+
+body#sgvm-app {
+  margin-top: 85px;
+}
+#sgvm-content {
+  margin: 20px 0 40px;
+}
+#sgvm-content h1,
+#sgvm-content h2 {
+  color: $h1-color;
+}
+#sgvm-content h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+#sgvm-content h2 {
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+.sgvm-full-width-image {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.sgvm-heading-text {
+  font: bold 1.5em "Myriad Pro", sans-serif;
+  padding: 1em 0;
+}
+.row.sgvm-beige-background {
+  background: $beige url("../../assets/images/bg-tile-beige.png");
+}
+.row.sgvm-teal-background {
+  background: $teal url("../../assets/images/bg-tile-teal.png");
+}
+.content-page-header {
+  margin: 0 auto;
+}
+.content-page-header img {
+  width: 100%;
+  height: auto;
+}
+
+// Component styles are injected through grunt
+// injector
+@import 'about/about-montessori/about-montessori.scss';
+@import 'about/about-us/about-us.scss';
+@import 'about/curriculum-and-activities/curriculum-and-activities.scss';
+@import 'about/teachers-and-staff/teachers-and-staff.scss';
+@import 'account/login/login.scss';
+@import 'admin/admin.scss';
+@import 'classrooms/alex/alex.scss';
+@import 'classrooms/michelle/michelle.scss';
+@import 'classrooms/nathan/nathan.scss';
+@import 'classrooms/pauline/pauline.scss';
+@import 'contact/contact.scss';
+@import 'footer/footer.scss';
+@import 'main/main.scss';
+@import 'navbar/navbar.scss';
+@import 'parents/bus-schedule/bus-schedule.scss';
+@import 'parents/calendar/calendar.scss';
+@import 'parents/forms/forms.scss';
+@import 'parents/lunch-menu/lunch-menu.scss';
+@import 'parents/newsletter/newsletter.scss';
+@import 'parents/prospective-families/prospective-families.scss';
+@import 'parents/pto/pto.scss';
+@import 'parents/student-handbook/student-handbook.scss';
+@import 'modal/modal.scss';
+// endinjector

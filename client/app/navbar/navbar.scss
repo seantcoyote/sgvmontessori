@@ -1,0 +1,43 @@
+#sgvm-navbar {
+  background-color: white;
+}
+#sgvm-navbar.navbar {
+  min-height: 112px;
+}
+.sgvm-purple-stripe {
+  height: 10px;
+  margin: 0 -15px 0;
+  background-color: $purple;
+}
+.navbar-nav.sgvm-main-nav {
+  padding-top: 7px;
+}
+.navbar-nav.sgvm-main-nav li a {
+  padding: 5px 12px;
+  color: $nav-blue;
+  font: 0.85em helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.navbar-nav.sgvm-main-nav li a:hover {
+  text-decoration: none;
+}
+.navbar-nav.sgvm-auth-nav {
+  padding: 5px 15px 15px;
+  font-size: 11px;
+}
+.sgvm-nav-phone {
+  font-size: 13px;
+  padding: 15px 0 5px;
+}
+.sgvm-auth-btn {
+  font-size: 11px;
+}
+.navbar-nav.sgvm-auth-nav > li > a {
+  padding: 2px 15px;
+}
+#sgvm-navbar .navbar-brand {
+  height: auto;
+  padding: 0px;
+  margin: 0;
+}
