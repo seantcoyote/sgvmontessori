@@ -3,7 +3,7 @@
 angular.module('sgvmApp')
   .config(function ($stateProvider) {
     $stateProvider
-      .state('forms', {
+      .state('montessori-forms', {
         url: '/parents/forms',
         templateUrl: 'app/parents/forms/forms.html',
         controller: 'FormsCtrl'

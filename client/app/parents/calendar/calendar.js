@@ -3,7 +3,7 @@
 angular.module('sgvmApp')
   .config(function ($stateProvider) {
     $stateProvider
-      .state('calendar', {
+      .state('montessori-calendar', {
         url: '/parents/calendar',
         templateUrl: 'app/parents/calendar/calendar.html',
         controller: 'CalendarCtrl'

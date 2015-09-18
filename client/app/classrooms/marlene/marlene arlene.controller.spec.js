@@ -1,21 +1,20 @@
 'use strict';
 
-describe('Controller: NewsletterCtrl', function () {
+describe('Controller: MarleneCtrl', function () {
 
   // load the controller's module
   beforeEach(module('sgvmApp'));
 
-  var NewsletterCtrl, scope;
+  var MarleneCtrl, scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    NewsletterCtrl = $controller('NewsletterCtrl', {
+    MarleneCtrl = $controller('MarleneCtrl', {
       $scope: scope
     });
   }));
 
   it('should ...', function () {
-    expect(1).toEqual(1);
   });
 });

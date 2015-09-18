@@ -6,6 +6,48 @@ angular.module('sgvmApp')
     function getNavMenu () {
       return [
         {
+        'title': 'Quick Links',
+        'link': 'quick-links',
+        'subnav': [
+          {
+          'title': 'Lagunitas School District Website',
+          'link': 'district-homepage'
+          },
+          {
+          'title': 'Academic Calendar',
+          'link': 'academic-calendar'
+          },
+          {
+          'title': 'Events Calendar',
+          'link': 'events-calendar'
+          },
+          {
+          'title': 'District Newsletter and Other News',
+          'link': 'news'
+          },
+          {
+          'title': 'Lunch Menu',
+          'link': 'lunch-menu'
+          },
+          {
+          'title': 'MealTime Online',
+          'link': 'meal-time'
+          },
+          {
+          'title': 'Bus Schedule',
+          'link': 'bus-schedule'
+          },
+          {
+          'title': 'Student Handbook',
+          'link': 'student-handbook'
+          },
+          {
+          'title': 'Forms and Documents',
+          'link': 'forms'
+          }
+          ]
+        },
+        {
         'title': 'Parents',
         'link': 'pto',
         'subnav': [
@@ -14,32 +56,12 @@ angular.module('sgvmApp')
           'link': 'pto'
           },
           {
-          'title': 'Calendar',
-          'link': 'calendar'
-          },
-          {
-          'title': 'Newsletter',
-          'link': 'newsletter'
-          },
-          {
-          'title': 'Lunch Menu',
-          'link': 'lunch-menu'
-          },
-          {
-          'title': 'Bus Schedule',
-          'link': 'bus-schedule'
-          },
-          {
-          'title': 'Forms',
-          'link': 'forms'
-          },
-          {
-          'title': 'Student Handbook',
-          'link': 'student-handbook'
-          },
-          {
           'title': 'Info for Prospective Families',
           'link': 'prospective-families'
+          },
+          {
+          'title': 'Montessori Calendar',
+          'link': 'montessori-calendar'
           }
           ]
         },
@@ -63,6 +85,22 @@ angular.module('sgvmApp')
           'title': 'Alex Cusick (4-5)',
           'link': 'alex'
           },
+          {
+          'title': 'Terry Shea (Music)',
+          'link': 'terry'
+          },
+          {
+          'title': 'Erin (Art)',
+          'link': 'erin'
+          },
+          {
+          'title': 'Marlene (Gardening and Technology)',
+          'link': 'marlene'
+          },
+          {
+          'title': 'Buck (PE)',
+          'link': 'buck'
+          }
           ]
         },
         {
@@ -91,7 +129,8 @@ angular.module('sgvmApp')
         'title': 'Contact',
         'link': 'contact'
         }
-      ]};
+      ];
+    }
 
     return {
       getNavMenu: getNavMenu

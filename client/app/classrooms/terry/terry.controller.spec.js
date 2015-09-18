@@ -1,21 +1,20 @@
 'use strict';
 
-describe('Controller: LunchMenuCtrl', function () {
+describe('Controller: TerryCtrl', function () {
 
   // load the controller's module
   beforeEach(module('sgvmApp'));
 
-  var LunchMenuCtrl, scope;
+  var TerryCtrl, scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    LunchMenuCtrl = $controller('LunchMenuCtrl', {
+    TerryCtrl = $controller('TerryCtrl', {
       $scope: scope
     });
   }));
 
   it('should ...', function () {
-    expect(1).toEqual(1);
   });
 });

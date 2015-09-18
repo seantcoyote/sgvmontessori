@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('sgvmApp')
-  .controller('LunchMenuCtrl', function ($scope) {
+  .controller('MarleneCtrl', function ($scope) {
     $scope.message = 'Hello';
   });
