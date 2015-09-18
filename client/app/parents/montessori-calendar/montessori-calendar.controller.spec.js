@@ -1,21 +1,20 @@
 'use strict';
 
-describe('Controller: CalendarCtrl', function () {
+describe('Controller: MontessoriCalendarCtrl', function () {
 
   // load the controller's module
   beforeEach(module('sgvmApp'));
 
-  var CalendarCtrl, scope;
+  var MontessoriCalendarCtrl, scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    CalendarCtrl = $controller('CalendarCtrl', {
+    MontessoriCalendarCtrl = $controller('MontessoriCalendarCtrl', {
       $scope: scope
     });
   }));
 
   it('should ...', function () {
-    expect(1).toEqual(1);
   });
 });

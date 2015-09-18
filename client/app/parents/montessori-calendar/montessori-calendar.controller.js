@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('sgvmApp')
-  .controller('CalendarCtrl', function ($scope) {
+  .controller('MontessoriCalendarCtrl', function ($scope) {
     $scope.message = 'Hello';
   });
