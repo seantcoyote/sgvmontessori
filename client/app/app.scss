@@ -31,7 +31,9 @@ body#sgvm-app {
   margin: 20px 0 40px;
 }
 #sgvm-content h1,
-#sgvm-content h2 {
+#sgvm-content h2,
+#sgvm-content h3,
+#sgvm-content h4 {
   color: $h1-color;
 }
 #sgvm-content h1 {
@@ -39,6 +41,10 @@ body#sgvm-app {
   font-size: 2em;
 }
 #sgvm-content h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+#sgvm-content h3 {
   margin-bottom: 10px;
   font-size: 1.3em;
 }
@@ -69,25 +75,27 @@ body#sgvm-app {
 // injector
 @import 'about/about-montessori/about-montessori.scss';
 @import 'about/about-us/about-us.scss';
+@import 'about/benefits-of-montessori/benefits-of-montessori.scss';
 @import 'about/curriculum-and-activities/curriculum-and-activities.scss';
+@import 'about/five-great-lessons/five-great-lessons.scss';
 @import 'about/teachers-and-staff/teachers-and-staff.scss';
 @import 'account/login/login.scss';
 @import 'admin/admin.scss';
 @import 'classrooms/alex/alex.scss';
+@import 'classrooms/buck/buck.scss';
+@import 'classrooms/erin/erin.scss';
+@import 'classrooms/marlene/marlene.scss';
 @import 'classrooms/michelle/michelle.scss';
 @import 'classrooms/nathan/nathan.scss';
 @import 'classrooms/pauline/pauline.scss';
+@import 'classrooms/terry/terry.scss';
 @import 'contact/contact.scss';
 @import 'footer/footer.scss';
 @import 'main/main.scss';
 @import 'navbar/navbar.scss';
-@import 'parents/bus-schedule/bus-schedule.scss';
 @import 'parents/calendar/calendar.scss';
 @import 'parents/forms/forms.scss';
-@import 'parents/lunch-menu/lunch-menu.scss';
-@import 'parents/newsletter/newsletter.scss';
 @import 'parents/prospective-families/prospective-families.scss';
 @import 'parents/pto/pto.scss';
-@import 'parents/student-handbook/student-handbook.scss';
 @import 'modal/modal.scss';
 // endinjector

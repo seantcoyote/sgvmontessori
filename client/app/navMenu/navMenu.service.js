@@ -122,6 +122,14 @@ angular.module('sgvmApp')
             {
             'title': 'Teachers and Staff',
             'link': 'teachers-and-staff'
+            },
+            {
+            'title': 'Benefits of Montessori',
+            'link': 'benefits-of-montessori'
+            },
+            {
+            'title': 'The Five Great Lessons',
+            'link': 'five-great-lessons'
             }
           ]
         },
