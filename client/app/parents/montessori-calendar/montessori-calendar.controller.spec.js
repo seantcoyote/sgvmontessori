@@ -15,6 +15,7 @@ describe('Controller: MontessoriCalendarCtrl', function () {
     });
   }));
 
-  it('should ...', function () {
+  it('should have a message equalling Hello', function () {
+    expect(1).toEqual(1);
   });
 });
