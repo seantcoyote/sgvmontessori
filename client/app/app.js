@@ -42,6 +42,7 @@ angular.module('sgvmApp', [
   })
 
   .run(function ($rootScope, $location, $window, Auth) {
+
     // Redirect to login if route requires auth and you're not logged in
     $rootScope.$on('$stateChangeStart', function (event, next) {
       Auth.isLoggedInAsync(function(loggedIn) {
@@ -50,10 +51,19 @@ angular.module('sgvmApp', [
         }
       });
     });
-    $rootScope.$on('$stateChangeStart', function(event, toState) {
+
+    $rootScope.$on('$stateChangeStart', function (event, toState) {
       if (toState.external) {
         event.preventDefault();
         $window.open(toState.url, '_blank');
       }
     });
+    
   });
+
+
+
+
+
+
+

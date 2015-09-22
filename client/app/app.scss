@@ -64,13 +64,6 @@ body#sgvm-app {
 .row.sgvm-teal-background {
   background: $teal url("../../assets/images/bg-tile-teal.png");
 }
-.content-page-header {
-  margin: 0 auto;
-}
-.content-page-header img {
-  width: 100%;
-  height: auto;
-}
 
 // Component styles are injected through grunt
 // injector
@@ -90,6 +83,7 @@ body#sgvm-app {
 @import 'classrooms/terry/terry.scss';
 @import 'contact/contact.scss';
 @import 'footer/footer.scss';
+@import 'header/header.scss';
 @import 'main/main.scss';
 @import 'navbar/navbar.scss';
 @import 'parents/forms/forms.scss';
