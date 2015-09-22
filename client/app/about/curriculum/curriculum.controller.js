@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('sgvmApp')
-  .controller('CurriculumAndActivitiesCtrl', function ($scope) {
+  .controller('CurriculumCtrl', function ($scope) {
     $scope.message = 'Hello';
   });

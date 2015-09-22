@@ -30,7 +30,7 @@
   font-size: 11px;
 }
 
-.navbar-nav.sgvm-quick-links li {
+.navbar-nav.sgvm-district-links li {
   padding: 5px 15px 15px;
   font-size: 11px;
 }
@@ -58,5 +58,13 @@
   .navbar-brand img {
     width: 75%;
     height: auto;
+  }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-md-min) {
+  .navbar-nav.sgvm-main-nav li a {
+    padding: 5px 7px;
+    font: 0.75em helvetica, sans-serif;
+    letter-spacing: 0.05em;
   }
 }

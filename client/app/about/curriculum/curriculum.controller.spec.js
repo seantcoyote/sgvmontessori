@@ -1,16 +1,16 @@
 'use strict';
 
-describe('Controller: BuckCtrl', function () {
+describe('Controller: CurriculumCtrl', function () {
 
   // load the controller's module
   beforeEach(module('sgvmApp'));
 
-  var BuckCtrl, scope;
+  var CurriculumCtrl, scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    BuckCtrl = $controller('BuckCtrl', {
+    CurriculumCtrl = $controller('CurriculumCtrl', {
       $scope: scope
     });
   }));

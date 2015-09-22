@@ -6,8 +6,8 @@ angular.module('sgvmApp')
     function getNavMenu () {
       return [
         {
-        'title': 'Quick Links',
-        'link': 'quick-links',
+        'title': 'District Links',
+        'link': 'district-links',
         'subnav': [
           {
           'title': 'Lagunitas School District Website',
@@ -22,7 +22,7 @@ angular.module('sgvmApp')
           'link': 'events-calendar'
           },
           {
-          'title': 'District Newsletter and Other News',
+          'title': 'District News and Newsletter',
           'link': 'news'
           },
           {
@@ -58,10 +58,6 @@ angular.module('sgvmApp')
           {
           'title': 'Info for Prospective Families',
           'link': 'prospective-families'
-          },
-          {
-          'title': 'Montessori Calendar',
-          'link': 'montessori-calendar'
           }
           ]
         },
@@ -94,12 +90,8 @@ angular.module('sgvmApp')
           'link': 'erin'
           },
           {
-          'title': 'Marlene (Gardening and Technology)',
+          'title': 'Marlene (Gardening)',
           'link': 'marlene'
-          },
-          {
-          'title': 'Buck (PE)',
-          'link': 'buck'
           }
           ]
         },
@@ -108,20 +100,16 @@ angular.module('sgvmApp')
         'link': 'about-us',
         'subnav': [
             {
-            'title': 'About Us',
-            'link': 'about-us'
+            'title': 'About Lagunitas Montessori',
+            'link': 'lagunitas-montessori'
             },
             {
-            'title': 'About Montessori',
-            'link': 'about-montessori'
+            'title': 'Montessori Philosophy',
+            'link': 'montessori-philosophy'
             },
             {
-            'title': 'Curriculum and Activities',
-            'link': 'curriculum-and-activities'
-            },
-            {
-            'title': 'Teachers and Staff',
-            'link': 'teachers-and-staff'
+            'title': 'Curriculum',
+            'link': 'curriculum'
             },
             {
             'title': 'Benefits of Montessori',

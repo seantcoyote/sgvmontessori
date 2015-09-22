@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('sgvmApp')
-  .controller('AboutMontessoriCtrl', function ($scope) {
+  .controller('MontessoriPhilosophyCtrl', function ($scope) {
     $scope.message = 'Hello';
   });

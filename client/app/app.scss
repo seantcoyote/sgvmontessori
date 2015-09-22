@@ -1,5 +1,6 @@
 $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
 $fa-font-path: "/bower_components/font-awesome/fonts";
+/* @grid-float-breakpoint: 992px; */
 
 @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
 @import 'font-awesome/scss/font-awesome';
@@ -73,16 +74,14 @@ body#sgvm-app {
 
 // Component styles are injected through grunt
 // injector
-@import 'about/about-montessori/about-montessori.scss';
-@import 'about/about-us/about-us.scss';
 @import 'about/benefits-of-montessori/benefits-of-montessori.scss';
-@import 'about/curriculum-and-activities/curriculum-and-activities.scss';
+@import 'about/curriculum/curriculum.scss';
 @import 'about/five-great-lessons/five-great-lessons.scss';
-@import 'about/teachers-and-staff/teachers-and-staff.scss';
+@import 'about/lagunitas-montessori/lagunitas-montessori.scss';
+@import 'about/montessori-philosophy/montessori-philosophy.scss';
 @import 'account/login/login.scss';
 @import 'admin/admin.scss';
 @import 'classrooms/alex/alex.scss';
-@import 'classrooms/buck/buck.scss';
 @import 'classrooms/erin/erin.scss';
 @import 'classrooms/marlene/marlene.scss';
 @import 'classrooms/michelle/michelle.scss';

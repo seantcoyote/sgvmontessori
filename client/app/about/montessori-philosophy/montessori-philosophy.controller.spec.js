@@ -1,21 +1,20 @@
 'use strict';
 
-describe('Controller: AboutMontessoriCtrl', function () {
+describe('Controller: MontessoriPhilosophyCtrl', function () {
 
   // load the controller's module
   beforeEach(module('sgvmApp'));
 
-  var AboutMontessoriCtrl, scope;
+  var MontessoriPhilosophyCtrl, scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    AboutMontessoriCtrl = $controller('AboutMontessoriCtrl', {
+    MontessoriPhilosophyCtrl = $controller('MontessoriPhilosophyCtrl', {
       $scope: scope
     });
   }));
 
   it('should ...', function () {
-    expect(1).toEqual(1);
   });
 });
