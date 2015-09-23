@@ -7,7 +7,7 @@ angular.module('sgvmApp')
       return [
         {
         'title': 'District Links',
-        'link': 'district-links',
+        'link': 'district-homepage',
         'subnav': [
           {
           'title': 'Lagunitas School District Website',
@@ -97,7 +97,7 @@ angular.module('sgvmApp')
         },
         {
         'title': 'About',
-        'link': 'about-us',
+        'link': 'lagunitas-montessori',
         'subnav': [
             {
             'title': 'About Lagunitas Montessori',
