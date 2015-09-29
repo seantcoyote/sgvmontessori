@@ -1,21 +1,20 @@
 'use strict';
 
-describe('Controller: ProspectiveFamiliesCtrl', function () {
+describe('Controller: MeetingScheduleCtrl', function () {
 
   // load the controller's module
   beforeEach(module('sgvmApp'));
 
-  var ProspectiveFamiliesCtrl, scope;
+  var MeetingScheduleCtrl, scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    ProspectiveFamiliesCtrl = $controller('ProspectiveFamiliesCtrl', {
+    MeetingScheduleCtrl = $controller('MeetingScheduleCtrl', {
       $scope: scope
     });
   }));
 
   it('should ...', function () {
-    expect(1).toEqual(1);
   });
 });

@@ -23,7 +23,7 @@ angular.module('sgvmApp')
           },
           {
           'title': 'District News and Newsletter',
-          'link': 'news'
+          'link': 'district-news'
           },
           {
           'title': 'Lunch Menu',
@@ -38,8 +38,8 @@ angular.module('sgvmApp')
           'link': 'bus-schedule'
           },
           {
-          'title': 'Student Handbook',
-          'link': 'student-handbook'
+          'title': 'District Student Handbook',
+          'link': 'district-student-handbook'
           },
           {
           'title': 'Forms and Documents',
@@ -48,16 +48,40 @@ angular.module('sgvmApp')
           ]
         },
         {
-        'title': 'Parents',
-        'link': 'pto',
+        'title': 'PTO',
+        'link': 'about-pto',
         'subnav': [
           {
-          'title': 'PTO',
-          'link': 'pto'
+          'title': 'About PTO',
+          'link': 'about-pto'
           },
           {
-          'title': 'Info for Prospective Families',
-          'link': 'prospective-families'
+          'title': 'Meeting Schedule',
+          'link': 'meeting-schedule'
+          },
+          {
+          'title': 'Meeting Minutes',
+          'link': 'meeting-minutes'
+          },
+          {
+          'title': 'Bylaws',
+          'link': 'bylaws'
+          },
+          {
+          'title': 'Volunteer Info',
+          'link': 'volunteer-info'
+          },
+          {
+          'title': 'Fundraising and LEAP',
+          'link': 'fundraising-leap'
+          },
+          {
+          'title': 'Fall Festival',
+          'link': 'fall-festival'
+          },
+          {
+          'title': 'Sgin up for eScrip',
+          'link': 'escrip'
           }
           ]
         },
@@ -100,6 +124,10 @@ angular.module('sgvmApp')
         'link': 'lagunitas-montessori',
         'subnav': [
             {
+            'title': 'Info for Prospective Families',
+            'link': 'prospective-families'
+            },
+            {
             'title': 'About Lagunitas Montessori',
             'link': 'lagunitas-montessori'
             },
@@ -108,16 +136,24 @@ angular.module('sgvmApp')
             'link': 'montessori-philosophy'
             },
             {
-            'title': 'Curriculum',
-            'link': 'curriculum'
+            'title': 'Montessori Student Handbook',
+            'link': 'montessori-student-handbook'
+            },
+            {
+            'title': 'The Five Great Lessons',
+            'link': 'five-great-lessons'
             },
             {
             'title': 'Benefits of Montessori',
             'link': 'benefits-of-montessori'
             },
             {
-            'title': 'The Five Great Lessons',
-            'link': 'five-great-lessons'
+            'title': 'Curriculum',
+            'link': 'curriculum'
+            },
+            {
+            'title': 'FAQ',
+            'link': 'faq'
             }
           ]
         },

@@ -15,7 +15,7 @@ angular.module('sgvmApp')
         url: 'http://lagunitas.org/events-calendar/',
         external: true
       })
-      .state('news', {
+      .state('district-news', {
         url: 'http://lagunitas.org/recent-news/',
         external: true
       })
@@ -31,7 +31,7 @@ angular.module('sgvmApp')
         url: 'http://lagunitas.org/bus-schedule/',
         external: true
       })
-      .state('student-handbook', {
+      .state('district-student-handbook', {
         url: 'http://lagunitas.org/blog/wpfb-file/lagunitas-handbook-2014-2015-pdf/',
         external: true
       })
