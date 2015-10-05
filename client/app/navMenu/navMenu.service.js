@@ -124,28 +124,23 @@ angular.module('sgvmApp')
         'link': 'lagunitas-montessori',
         'subnav': [
             {
-            'title': 'Info for Prospective Families',
-            'link': 'prospective-families'
-            },
-            {
             'title': 'About Lagunitas Montessori',
             'link': 'lagunitas-montessori'
+            },
+            {
+            'title': 'Info for Prospective Families',
+            'link': 'prospective-families'
+            },            {
+            'title': 'Montessori Student Handbook',
+            'link': 'montessori-student-handbook'
             },
             {
             'title': 'Montessori Philosophy',
             'link': 'montessori-philosophy'
             },
             {
-            'title': 'Montessori Student Handbook',
-            'link': 'montessori-student-handbook'
-            },
-            {
             'title': 'The Five Great Lessons',
             'link': 'five-great-lessons'
-            },
-            {
-            'title': 'Benefits of Montessori',
-            'link': 'benefits-of-montessori'
             },
             {
             'title': 'Curriculum',

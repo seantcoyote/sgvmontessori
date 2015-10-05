@@ -49,6 +49,10 @@ body#sgvm-app {
   margin-bottom: 10px;
   font-size: 1.3em;
 }
+#sgvm-content h4 {
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
 .sgvm-full-width-image {
   width: 100%;
   height: auto;
@@ -67,7 +71,6 @@ body#sgvm-app {
 
 // Component styles are injected through grunt
 // injector
-@import 'about/benefits-of-montessori/benefits-of-montessori.scss';
 @import 'about/curriculum/curriculum.scss';
 @import 'about/faq/faq.scss';
 @import 'about/five-great-lessons/five-great-lessons.scss';
