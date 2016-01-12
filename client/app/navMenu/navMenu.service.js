@@ -114,7 +114,7 @@ angular.module('sgvmApp')
           'link': 'erin'
           },
           {
-          'title': 'Marlene (Gardening)',
+          'title': 'Marlene Lindner (Gardening)',
           'link': 'marlene'
           }
           ]
